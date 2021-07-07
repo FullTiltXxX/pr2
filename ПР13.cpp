@@ -19,8 +19,8 @@ int min_value(const int* arr, const int n, int i, int mvalue)
 
 int main()
 {
-	print_number(3456, 1000);
+	print_number(1800, 1000);
 
-	int a[] = { 1, 3, 5, 2, 4, -1, 10 };
+	int a[] = { 3, 1, 6, 4, 4, -1, 10 };
 	cout << min_value(a, 7, 0, a[0]);
 }
